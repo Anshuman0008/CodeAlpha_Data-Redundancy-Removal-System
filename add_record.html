@@ -1,0 +1,105 @@
+<form action="/save" method="POST">
+
+    <div class="row">
+
+        <div class="col-md-6 mb-3">
+            <label>Full Name</label>
+            <input
+                type="text"
+                class="form-control"
+                name="full_name"
+                placeholder="Enter Full Name"
+                required>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label>Email</label>
+            <input
+                type="email"
+                class="form-control"
+                name="email"
+                placeholder="Enter Email"
+                required>
+        </div>
+
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6 mb-3">
+            <label>Phone Number</label>
+            <input
+                type="text"
+                class="form-control"
+                name="phone"
+                placeholder="Enter Phone Number"
+                required>
+        </div>
+
+        <div class="col-md-6 mb-3">
+            <label>Department</label>
+
+            <select
+                class="form-select"
+                name="department"
+                required>
+
+                <option value="">Select Department</option>
+                <option>Cloud</option>
+                <option>DevOps</option>
+                <option>HR</option>
+                <option>Finance</option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Employee ID</label>
+
+        <input
+            type="text"
+            class="form-control"
+            name="employee_id"
+            placeholder="Employee ID"
+            required>
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Address</label>
+
+        <textarea
+            class="form-control"
+            rows="3"
+            name="address"
+            placeholder="Enter Address"
+            required></textarea>
+
+    </div>
+
+    <div class="text-center">
+
+        <button
+            type="submit"
+            class="btn btn-success btn-lg">
+
+            Submit Record
+
+        </button>
+
+        <button
+            type="reset"
+            class="btn btn-secondary btn-lg">
+
+            Clear Form
+
+        </button>
+
+    </div>
+
+</form>
